@@ -1,5 +1,15 @@
 # gitbook
 
+## 0.27.1
+
+### Patch Changes
+
+- acf2719: Mark the AI Assistant chat as `aria-busy` while it is generating a response (including the follow-up suggestion phase), so assistive technologies are notified of the in-progress state.
+- 72a1596: Fix the AI assistant panel overflowing its frame when rendering single/multi-choice question forms with long option text.
+- 77c717c: Assistant: group all of a turn's tool calls behind a single "Explored with N tools" expandable instead of rendering a separate single-item expandable for each client-side tool call.
+- 251630c: Drive page actions ordering and default action from the new `pageActions.items` list, including the reorderable assistant action
+- ddba803: Add a page reference chip when opening the Assistant from the page action, so the assistant is informed about the page the reader is currently on.
+
 ## 0.27.0
 
 ### Minor Changes
